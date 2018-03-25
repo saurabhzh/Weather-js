@@ -1,0 +1,16 @@
+.headerTease{
+    padding: 15px 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    background-color: #0065D1;
+}
+.headerNav a{
+	border-radius: 0px !important;
+	height: 50px;
+	line-height: 32px;
+}
+.container-fluid {
+    padding-right: 0px !important; 
+    padding-left: 0px !important; 
+}

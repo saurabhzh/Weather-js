@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-route.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="manifest" href="/manifest.json">
+</head>
+<body>
+	<div class="container-fluid" ng-app="weather">
+		<div class="headerTease">Weather 2.0</div>
+		<nav class="nav nav-pills nav-justified headerNav">
+			<a class="nav-item nav-link active" href="#!dashBoard">Active</a>
+			<a class="nav-item nav-link" href="#!search">Search</a>
+			<a class="nav-item nav-link" href="#!favourite">Favourite</a>
+		</nav>
+		<div ng-view></div>
+	</div>
+</body>
+<script src="js/script.js"></script>
+<script src="pages/dashboard/dashboard.js"></script>
+<script src="pages/favs/favs.js"></script>
+<script src="pages/search/search.js"></script>
+</html>
